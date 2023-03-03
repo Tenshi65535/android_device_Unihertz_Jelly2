@@ -199,8 +199,4 @@ vendor/Unihertz/Jelly2_JP/proprietary/etc/felica/common.cfg:etc/felica/common.cf
 vendor/Unihertz/Jelly2_JP/proprietary/etc/felica/mfm.cfg:etc/felica/mfm.cfg\
 vendor/Unihertz/Jelly2_JP/proprietary/etc/felica/mfs.cfg:etc/felica/mfs.cfg\
 vendor/Unihertz/Jelly2_JP/proprietary/system/etc/permissions/com.felicanetworks.felica.xml:system/etc/permissions/com.felicanetworks.felica.xml\
-vendor/Unihertz/Jelly2_JP/proprietary/system/etc/permissions/com.felicanetworks.felicaextra.xml:system/etc/permissions/com.felicanetworks.felicaextra.xml\
-vendor/Unihertz/Jelly2_JP/proprietary/system/lib/libsony_nfc_nci_jni.so:system/lib/libsony_nfc_nci_jni.so\
-vendor/Unihertz/Jelly2_JP/proprietary/system/lib/libnfc-nci.so:system/lib/libnfc-nci.so\
-vendor/Unihertz/Jelly2_JP/proprietary/system/lib64/libsony_nfc_nci_jni.so:system/lib64/libsony_nfc_nci_jni.so\
-vendor/Unihertz/Jelly2_JP/proprietary/system/lib64/libnfc-nci.so:system/lib64/libnfc-nci.so
+vendor/Unihertz/Jelly2_JP/proprietary/system/etc/permissions/com.felicanetworks.felicaextra.xml:system/etc/permissions/com.felicanetworks.felicaextra.xml
