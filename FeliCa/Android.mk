@@ -1,6 +1,5 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
-LOCAL_MODULE		:= FeliCaLock
 LOCAL_SRC_FILES		:= etc/FeliCaLock.apk
 LOCAL_PACKAGE_NAME	:= FeliCaLock
 LOCAL_MODULE_CLASS	:= APPS
@@ -11,7 +10,6 @@ include $(BUILD_PACKAGE)
 
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
-LOCAL_MODULE		:= MobileFeliCaClient
 LOCAL_SRC_FILES		:= etc/MobileFeliCaClient.apk
 LOCAL_PACKAGE_NAME	:= MobileFeliCaClient
 LOCAL_MODULE_CLASS	:= APPS
@@ -22,7 +20,6 @@ include $(BUILD_PACKAGE)
 
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
-LOCAL_MODULE		:= MobileFeliCaMenuMainApp
 LOCAL_SRC_FILES		:= etc/MobileFeliCaMenuMainApp.apk
 LOCAL_PACKAGE_NAME	:= MobileFeliCaMenuMainApp
 LOCAL_MODULE_CLASS	:= APPS
@@ -33,7 +30,6 @@ include $(BUILD_PACKAGE)
 
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
-LOCAL_MODULE		:= MobileFeliCaSettingApp
 LOCAL_SRC_FILES		:= etc/MobileFeliCaSettingApp.apk
 LOCAL_PACKAGE_NAME	:= MobileFeliCaSettingApp
 LOCAL_MODULE_CLASS	:= APPS
@@ -44,7 +40,6 @@ include $(BUILD_PACKAGE)
 
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
-LOCAL_MODULE		:= MobileFeliCaWebPluginBoot
 LOCAL_SRC_FILES		:= etc/MobileFeliCaWebPluginBoot.apk
 LOCAL_PACKAGE_NAME	:= MobileFeliCaWebPluginBoot
 LOCAL_MODULE_CLASS	:= APPS
