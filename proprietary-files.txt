@@ -154,11 +154,11 @@ etc/FelicaCmd.txt
 etc/felica/common.cfg
 etc/felica/mfm.cfg
 etc/felica/mfs.cfg
-system/app/FeliCaLock/FeliCaLock.apk
-system/app/MobileFeliCaClient/MobileFeliCaClient.apk
-system/app/MobileFeliCaMenuMainApp/MobileFeliCaMenuMainApp.apk
-system/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk
-system/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk
+#system/app/FeliCaLock/FeliCaLock.apk
+#system/app/MobileFeliCaClient/MobileFeliCaClient.apk
+#system/app/MobileFeliCaMenuMainApp/MobileFeliCaMenuMainApp.apk
+#system/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk
+#system/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk
 system/etc/permissions/com.felicanetworks.felica.xml
 system/etc/permissions/com.felicanetworks.felicaextra.xml
 framework/com.felicanetworks.felica.jar
