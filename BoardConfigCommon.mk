@@ -125,3 +125,5 @@ CUSTOM_APNS_FILE := device/sample/etc/apns-full-conf.xml \
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_COMMON_PATH)/bluetooth/include
+
+BUILD_BROKEN_DUP_RULES := true

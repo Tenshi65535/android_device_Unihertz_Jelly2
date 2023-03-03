@@ -182,12 +182,6 @@ PRODUCT_BOOT_JARS += \
 $(call inherit-product-if-exists, vendor/opengapps/build/opengapps-packages.mk)
 
 #Felica
-PRODUCT_PACKAGES += \
-    FeliCaLock  \
-    MobileFeliCaClient  \
-    MobileFeliCaMenuMainApp \
-    MobileFeliCaSettingApp  \
-    MobileFeliCaWebPluginBoot
 
 PRODUCT_COPY_FILES += \
 vendor/Unihertz/Jelly2_JP/proprietary/framework/com.felicanetworks.felica.jar:system/framework/com.felicanetworks.felica.jar \
