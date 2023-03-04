@@ -1,1 +1,2 @@
-type camerapostalgo, domain, binderservicedomain, coredomain;
+type camerapostalgo, binderservicedomain, coredomain, domain;
+

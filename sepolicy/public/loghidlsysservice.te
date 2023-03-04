@@ -1,1 +1,2 @@
-type loghidlsysservice, domain, coredomain;
+type loghidlsysservice, coredomain, domain;
+

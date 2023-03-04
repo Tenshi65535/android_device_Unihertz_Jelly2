@@ -1,1 +1,2 @@
-type netdiag, domain, mlstrustedsubject, coredomain;
+type netdiag, coredomain, domain, mlstrustedsubject;
+

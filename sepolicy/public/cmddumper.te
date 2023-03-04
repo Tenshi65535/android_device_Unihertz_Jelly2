@@ -1,1 +1,2 @@
-type cmddumper, domain, coredomain;
+type cmddumper, coredomain, domain;
+

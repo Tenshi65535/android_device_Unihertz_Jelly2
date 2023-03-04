@@ -1,2 +1,2 @@
-type mdlogger, domain, binderservicedomain, coredomain;
-type ctl_mdlogger_prop, property_type;
+type mdlogger, binderservicedomain, coredomain, domain;
+

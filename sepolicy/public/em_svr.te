@@ -1,1 +1,2 @@
-type em_svr, domain, coredomain;
+type em_svr, coredomain, domain;
+

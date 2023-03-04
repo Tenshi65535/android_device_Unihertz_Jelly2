@@ -1,1 +1,2 @@
-type met_log_d, domain, coredomain;
+type met_log_d, coredomain, domain;
+

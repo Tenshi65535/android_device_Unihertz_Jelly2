@@ -1,1 +1,2 @@
-type connsyslogger, domain, coredomain;
+type connsyslogger, coredomain, domain;
+

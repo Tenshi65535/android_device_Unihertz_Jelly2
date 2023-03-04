@@ -1,1 +1,2 @@
-type thermald, domain, coredomain;
+type thermald, coredomain, domain;
+

@@ -1,1 +1,2 @@
-type atci_service_sys, domain, coredomain;
+type atci_service_sys, coredomain, domain;
+
