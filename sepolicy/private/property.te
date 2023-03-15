@@ -1,1 +1,1 @@
-type proc_bootprof property_type;
+type proc_bootprof, property_type;
