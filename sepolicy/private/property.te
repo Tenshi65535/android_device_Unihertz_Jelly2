@@ -1,1 +1,2 @@
 type proc_bootprof, property_type;
+type proc_perfmgr, property_type;
