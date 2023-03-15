@@ -7,6 +7,9 @@ allow vendor_init netflix_bsp_rev_prop:property_service {set};
 allow vendor_init system_mtk_graphics_sf_gll_ro_prop:property_service {set};
 allow vendor_init system_mtk_update_support_prop:property_service {set};
 allow vendor_init system_prop:property_service {set};
+
+allow vendor_init:default_prop:file { read }
+
 neverallow vendor_init debugfs:dir {add_name append audit_access create execmod execute ioctl link lock map mounton quotaon relabelfrom relabelto remove_name rename reparent rmdir unlink watch watch_mount watch_reads watch_sb watch_with_perm write};
 neverallow vendor_init debugfs:file {append audit_access create entrypoint execmod execute execute_no_trans getattr ioctl link lock mounton quotaon relabelfrom relabelto rename unlink watch watch_mount watch_reads watch_sb watch_with_perm write};
 neverallow vendor_init device:blk_file {append audit_access create execmod execute ioctl link lock map mounton open quotaon read relabelfrom relabelto rename setattr unlink watch watch_mount watch_reads watch_sb watch_with_perm write};
