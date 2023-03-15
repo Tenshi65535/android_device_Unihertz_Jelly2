@@ -14,7 +14,6 @@ allow init system_mtk_rsc_sys_prop:property_service {set};
 
 allow init proc_bootprof:file { write };
 allow init proc_perfmgr:file { open };
-allow init sysfs:file { write };
 
 neverallow init debugfs:dir {add_name append audit_access create execmod execute ioctl link lock map mounton quotaon remove_name rename reparent rmdir unlink watch watch_mount watch_reads watch_sb watch_with_perm write};
 neverallow init debugfs:file {append audit_access create entrypoint execmod execute execute_no_trans ioctl link lock map mounton quotaon rename unlink watch watch_mount watch_reads watch_sb watch_with_perm write};
@@ -32,7 +31,7 @@ neverallow init socket_device:chr_file {append audit_access create entrypoint ex
 neverallow init socket_device:dir {append audit_access execmod execute link map mounton quotaon relabelfrom unlink watch_mount watch_sb watch_with_perm};
 neverallow init socket_device:lnk_file {append audit_access execmod execute link mounton quotaon relabelfrom relabelto rename setattr unlink watch_mount watch_sb watch_with_perm write};
 neverallow init sysfs:dir {add_name append audit_access create execmod execute link map quotaon remove_name rename reparent rmdir unlink watch_mount watch_sb watch_with_perm write};
-allow init sysfs:file {audit_access create entrypoint execmod execute execute_no_trans link mounton quotaon rename unlink watch_mount watch_sb watch_with_perm};
+neverallow init sysfs:file {audit_access create entrypoint execmod execute execute_no_trans link mounton quotaon rename unlink watch_mount watch_sb watch_with_perm};
 neverallow init sysfs:lnk_file {append audit_access create execmod execute link mounton quotaon rename unlink watch_mount watch_sb watch_with_perm write};
 neverallow init system_data_file:blk_file {append audit_access create execmod execute getattr ioctl link lock map mounton open quotaon read relabelfrom rename setattr unlink watch watch_mount watch_reads watch_sb watch_with_perm write};
 neverallow init system_data_file:chr_file {append audit_access create entrypoint execmod execute execute_no_trans getattr ioctl link lock map mounton open quotaon read relabelfrom rename setattr unlink watch watch_mount watch_reads watch_sb watch_with_perm write};
