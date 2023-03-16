@@ -16,7 +16,7 @@
 # Emulator keyboard configuration file #2.
 #
 
-touch.deviceType = touchPad
-touch.orientationAware = 1
+#touch.deviceType = touchPad
+#touch.orientationAware = 1
 
 
